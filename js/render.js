@@ -1,0 +1,3 @@
+function renderCategory(category) {
+    
+}
