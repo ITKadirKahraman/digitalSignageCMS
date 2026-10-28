@@ -1,0 +1,26 @@
+:root {
+    /* COLORS */
+    --background-color: #F7F5EF; /* Light Beige */
+    --struktur-color: #59664A; /* Dark Olive Green */
+    --text-color: #252822; /* Dark Charcoal */
+    --highlights-color: #B95F43; /* Terracotta */
+    --card-color: #E6E9DF; /* Soft Sage */
+
+    /* FONTS */
+    --font-family-headline: "Montserrat", sans-serif;
+    --font-optical-sizing-headline: auto;
+    --font-weight-headline: bold;
+    --font-style-headline: normal;
+
+    --font-family-text: "Montserrat", sans-serif;
+    --font-optical-sizing-text: auto;
+    --font-weight-text: bold;
+    --font-style-text: normal;
+
+    /* SIZES */
+    --size-0: 0px;
+    --size-100P: 100%;
+    --size-1080px: 1080px;
+    --size-1920px: 1920px;
+    --size-100vh: 100vh;
+}
