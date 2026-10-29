@@ -1,8 +1,26 @@
-.ofen {
+.category {
+    width: min(90%, 700px);
+    padding: 24px;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    border: 3px solid var(--struktur-color);
+    border-radius: 20px;
+}
+
+.category__title {
+    margin-top: 0;
+    color: var(--struktur-color);
+    font-family: var(--font-family-headline);
+}
+
+.category__items {
+    padding-left: 20px;
+}
+
+.category__item {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
-    border: 5px solid var(--struktur-color);
-    border-radius: 25%;
-    border-color: var(--struktur-color);
+    gap: 16px;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--struktur-color);
 }
