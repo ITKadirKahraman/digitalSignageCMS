@@ -24,14 +24,14 @@ main {
   max-width: var(--size-100P);
 }
 
-.montserrat h1, h2 {
+.montserrat h1, .montserrat h2 {
   font-family: var(--font-family-headline);
   font-optical-sizing: var(--font-optical-sizing-headline);
   font-weight: var(--font-weight-headline);
   font-style: var(--font-style-headline);
 }
 
-.montserrat p {
+.montserrat p, .montserrat span {
   font-family: var(--font-family-text);
   font-optical-sizing: var(--font-optical-sizing-text);
   font-weight: var(--font-weight-text);
