@@ -26,5 +26,5 @@ function renderPizza(category) {
 }
 
 function renderPizzabroetchen(category) {
-    const app = document.getElementById("pizza")
+    const pizzabroetchen = document.getElementById("pizzabroetchen")
 }
