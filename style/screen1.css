@@ -1,26 +1,53 @@
-.category {
+.pizzaCategory {
     width: min(90%, 700px);
     padding: 24px;
     color: var(--text-color);
-    background-color: var(--background-color);
+    background-color: var(--card-color);
     border: 3px solid var(--struktur-color);
     border-radius: 20px;
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__sizes {
+    display: flex;
+    gap: 24px;
+}
+
 .category__title {
-    margin-top: 0;
+    margin: 0;
     color: var(--struktur-color);
     font-family: var(--font-family-headline);
+    text-align: center;
+}
+
+.category__sizes24, .category__sizes30 {
+    margin: 0;
+    color: var(--struktur-color);
+    font-family: var(--font-family-text);
+    font-size: 15px;
+    text-align: center;
 }
 
 .category__items {
-    padding-left: 20px;
+    padding: 0px;
+    margin: 0px;
 }
 
 .category__item {
     display: flex;
     justify-content: space-between;
     gap: 16px;
-    padding: 10px 0;
+    margin: 5px 0;
     border-bottom: 1px solid var(--struktur-color);
+}
+
+.category__item__prices {
+    display: flex;
+    gap: 24px;
+    align-items: center;
 }
