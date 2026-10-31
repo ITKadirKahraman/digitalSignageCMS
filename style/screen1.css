@@ -1,5 +1,22 @@
+.category {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.rightSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+}
+
+/* PIZZA */
 .pizzaCategory {
-    width: min(90%, 700px);
+    width: 400px;
     padding: 24px;
     color: var(--text-color);
     background-color: var(--card-color);
@@ -50,4 +67,61 @@
     display: flex;
     gap: 24px;
     align-items: center;
+}
+
+/* IMAGES */
+
+.pizzaImages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.cardImg {
+    width: 400px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20px;
+    background-color: var(--card-color);
+    border: 3px solid var(--struktur-color);
+}
+
+/* PIZZABRÖTCHEN */
+.pizzabroetchenCategory {
+    width: 400px;
+    padding: 24px;
+    color: var(--text-color);
+    background-color: var(--card-color);
+    border: 3px solid var(--struktur-color);
+    border-radius: 20px;
+}
+
+.category__sizes8 {
+    margin: 0;
+    color: var(--struktur-color);
+    font-family: var(--font-family-text);
+    font-size: 15px;
+    text-align: center;
+}
+
+/* PIZZASTANGE */
+.pizzastangeCategory {
+    width: 400px;
+    padding: 24px;
+    color: var(--text-color);
+    background-color: var(--card-color);
+    border: 3px solid var(--struktur-color);
+    border-radius: 20px;
+}
+
+/* ÜBERBACKENE */
+.ueberbackeneCategory {
+    width: 400px;
+    padding: 24px;
+    color: var(--text-color);
+    background-color: var(--card-color);
+    border: 3px solid var(--struktur-color);
+    border-radius: 20px;
 }

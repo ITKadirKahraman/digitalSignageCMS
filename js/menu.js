@@ -34,11 +34,11 @@ const menu = {
         title: "Pizzabrötchen",
         sizes: ["8 Stück"],
         items: [
-            {name: "Käse", prices: ["4,00€", "22,00€"]},
-            {name: "Salami", prices: ["4,50€", "24,00€"]},
-            {name: "Schinken", prices: ["4,50€", "24,00€"]},
-            {name: "Thunfisch", prices: ["5,00€", "26,00€"]},
-            {name: "Vegetarisch", prices: ["4,50€", "24,00€"]}
+            {name: "Käse", prices: ["4,00€"]},
+            {name: "Salami", prices: ["4,50€"]},
+            {name: "Schinken", prices: ["4,50€"]},
+            {name: "Thunfisch", prices: ["5,00€"]},
+            {name: "Vegetarisch", prices: ["4,50€"]}
         ]
     },
     pizzastange: {

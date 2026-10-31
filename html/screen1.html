@@ -14,15 +14,23 @@
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
     </style>
 </head>
-<body>
-    <main id="category">
-        <div id="pizza"></div>
-        <div id="pizzabroetchen"></div>
-        <div id="pizzastange"></div>
-        <div id="ueberbacken"></div>
+<body onload="init()">
+    <main id="category" class="category">
+        <div class="leftSection">
+            <div id="pizza"></div>
+        </div>
+        <div class="middleSection">
+            <div id="images"></div>
+        </div>
+        <div class="rightSection">
+            <div id="pizzabroetchen"></div>
+            <div id="pizzastange"></div>
+            <div id="ueberbacken"></div>
+        </div>
     </main>
     <script src="../js/menu.js"></script>
-    <script src="../js/render.js"></script>
+    <script src="../js/images.js"></script>
+    <script src="../js/templates.js"></script>
     <script src="../js/script.js"></script>
 </body>
 </html>
