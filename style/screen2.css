@@ -1,0 +1,20 @@
+/* OTHER */
+.otherCategory {
+    width: 400px;
+    padding: 24px;
+    color: var(--text-color);
+    background-color: var(--card-color);
+    border: 3px solid var(--struktur-color);
+    border-radius: 20px;
+    margin-bottom: 12px;
+}
+
+/* IMAGES */
+
+.otherImages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+}

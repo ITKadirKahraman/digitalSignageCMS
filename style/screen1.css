@@ -40,6 +40,7 @@
     color: var(--struktur-color);
     font-family: var(--font-family-headline);
     text-align: center;
+    font-size: 28px;
 }
 
 .category__sizes24, .category__sizes30 {

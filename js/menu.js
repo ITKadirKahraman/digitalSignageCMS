@@ -60,17 +60,17 @@ const menu = {
             {name: "Dönerfleisch", prices: ["12,80€"]},
         ]
     },
-      doener: {
+    doener: {
     title: "Yaprak Döner Gerichte",
     items: [
-      { name: "Dönertasche mit hausgemachten Fladenbrot", prices: ["8,20€"] },
-      { name: "Jumbo Döner mit hausgemachten Fladenbrot", prices: ["14,00€"] },
-      { name: "Portion Dönerfleisch", prices: ["11,00€"] },
-      { name: "Döner Teller", prices: ["14,00€"] },
-      { name: "Iskender", prices: ["14,00€"] },
-      { name: "Dürüm mit hausgemachten Wrap", prices: ["9,50€"] },
-      { name: "Pomm Döner", prices: ["9,50€"] }
-    ]
+            { name: "Dönertasche mit hausgemachten Fladenbrot", prices: ["8,20€"] },
+            { name: "Jumbo Döner mit hausgemachten Fladenbrot", prices: ["14,00€"] },
+            { name: "Portion Dönerfleisch", prices: ["11,00€"] },
+            { name: "Döner Teller", prices: ["14,00€"] },
+            { name: "Iskender", prices: ["14,00€"] },
+            { name: "Dürüm mit hausgemachten Wrap", prices: ["9,50€"] },
+            { name: "Pomm Döner", prices: ["9,50€"] }
+        ]
     },
     tuerkisch: {
         title: "Türkische Spezialitäten",

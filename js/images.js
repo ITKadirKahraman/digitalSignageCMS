@@ -8,10 +8,25 @@ let images = {
             "image": "kaseBrotchen"
         },
         {
-            "image": "nudeln",
+            "image": "nudeln"
         },
         {
             "image": "stange"
+        }
+    ],
+    otherSection:
+    [
+        {
+            "image": "salatTeller"
+        },
+        {
+            "image": "reisTeller"
+        },
+        {
+            "image": "wings"
+        },
+        {
+            "image": "cheeseburger"
         }
     ]
 }
