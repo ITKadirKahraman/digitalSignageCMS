@@ -84,36 +84,58 @@ const menu = {
         { name: "Köfteteller mit zwei Beilagen", prices: ["13,50€"] }
         ]
     },
-    imbiss: {
-        title: "Imbiss Gerichte",
+    burger: {
+        title: "Burger",
         items: [
-        { name: "Pommes klein", prices: ["3,40€"] },
-        { name: "Pommes groß", prices: ["4,40€"] },
-        { name: "Kroketten", prices: ["4,00€"] },
+        { name: "Hamburger hausgemachtes Petty 100g", prices: ["6,00€"] },
+        { name: "Cheeseburger hausgemachtes Petty 100g", prices: ["6,50€"] },
+        { name: "Chickenburger", prices: ["6,00€"] }
+        ]
+    },
+    chicken: {
+        title: "Chicken Wings & Nuggets",
+        items: [
+        { name: "Chicken Wings (hausgemacht) 6er", prices: ["8,00€"] },
+        { name: "Chicken Wings (hausgemacht) 12er", prices: ["15,00€"] },
+        { name: "Chicken Nuggets 6er", prices: ["5,50€"] },
+        { name: "Chicken Nuggets 9er", prices: ["6,50€"] }
+        ]
+    },
+    wurst: {
+        title: "Wurst Gerichte",
+        items: [
         { name: "Bratwurst Klassik", prices: ["3,40€"] },
         { name: "Currywurst", prices: ["4,00€"] },
         { name: "Jägerwurst", prices: ["4,00€"] },
-        { name: "Bratwurst in Ungarische Art", prices: ["4,00€"] },
+        { name: "Bratwurst in Ungarische Art", prices: ["4,00€"] }
+        ]
+    },
+    schnitzel: {
+        title: "Schnitzel Gerichte",
+        items: [
         { name: "Schnitzel", prices: ["8,00€"] },
         { name: "Jägerschnitzel", prices: ["9,00€"] },
         { name: "Schnitzel in Ungarische Art", prices: ["9,00€"] },
-        { name: "Hamburger hausgemachtes Petty 100g", prices: ["6,00€"] },
-        { name: "Cheeseburger hausgemachtes Petty 100g", prices: ["6,50€"] },
-        { name: "Chickenburger", prices: ["6,00€"] },
-        { name: "Chicken Nuggets 6er / 9er", prices: ["5,50€", "6,50€"] },
-        { name: "Chicken Wings (hausgemacht) 6er", prices: ["8,00€"] },
-        { name: "Bambi Scheibe", prices: ["3,00€"] }
+        ]
+    },
+    falafel: {
+        title: "Falafel Gerichte",
+        items: [
+        { name: "Falafel Tasche(hausgemacht)", prices: ["8,20€"] },
+        { name: "Falafel Teller", prices: ["14,00€"] },
+        { name: "Falafel Dürüm", prices: ["9,50€"] }
         ]
     },
     vegetarisch: {
         title: "Vegetarische Gerichte",
         items: [
-        { name: "Falafel Tasche(hausgemacht)", prices: ["8,20€"] },
-        { name: "Falafel Teller", prices: ["14,00€"] },
-        { name: "Falafel Dürüm", prices: ["9,50€"] },
         { name: "Salattasche", prices: ["7,50€"] },
         { name: "Salat Dürüm", prices: ["7,50€"] },
-        { name: "Pommes Tasche", prices: ["8,00€"] }
+        { name: "Pommes Tasche", prices: ["8,00€"] },
+        { name: "Pommes klein", prices: ["3,40€"] },
+        { name: "Pommes groß", prices: ["4,40€"] },
+        { name: "Kroketten", prices: ["4,00€"] },
+        { name: "Bambi Scheibe", prices: ["3,00€"] }
         ]
     },
     salate: {

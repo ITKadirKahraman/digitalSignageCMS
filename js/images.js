@@ -14,7 +14,7 @@ let images = {
             "image": "stange"
         }
     ],
-    otherSection:
+    beefSection:
     [
         {
             "image": "salatTeller"
@@ -27,6 +27,18 @@ let images = {
         },
         {
             "image": "cheeseburger"
+        }
+    ],
+    otherSection:
+    [
+        {
+            "image": "56"
+        },
+        {
+            "image": "falafel"
+        },
+        {
+            "image": "kroketten"
         }
     ]
 }
