@@ -1,10 +1,10 @@
 :root {
     /* COLORS */
-    --background-color: #293133; /* Light Beige */
-    --struktur-color: #fff; /* Dark Olive Green */
-    --text-color: #fff; /* Dark Charcoal */
-    --highlights-color: #B95F43; /* Terracotta */
-    --card-color: #B95F43; /* Soft Sage */
+    --background-color: #20282A; /* tiefes Schiefergrau */
+    --struktur-color: #D7DFD9;   /* sanftes Salbeigrau */
+    --text-color: #F4F2ED;       /* warmes Off-White */
+    --highlights-color: #E58A68; /* helles Terrakotta */
+    --card-color: #354144;       /* heller als der Hintergrund */
 
     /* FONTS */
     --font-family-headline: "Montserrat", sans-serif;
