@@ -1,128 +1,147 @@
+/* LAYOUT: drei Spalten, füllen den ganzen Bildschirm */
 .category {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    gap: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  gap: 1.5rem;
+  padding: 1.5rem;
 }
 
-.rightSection {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 24px;
+.leftSection, .middleSection, .rightSection {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
 }
 
-/* PIZZA */
+.leftSection   { flex: 1.2; }
+.rightSection  { flex: 1; }
+.middleSection { flex: 0.8; order: -1; } /* Bilder nach links; "order: -1" löschen für Mitte */
+
+/* KARTEN */
+.pizzabroetchenCategory,
+.pizzastangeCategory,
+.ueberbackeneCategory {
+  width: 100%;
+  padding: 1.25rem 1.5rem;
+  color: var(--text-color);
+  background-color: var(--card-color);
+  border: none;
+  border-radius: 1.25rem;
+}
+
+/* Pizza-Liste ohne Kasten */
 .pizzaCategory {
-    width: 400px;
-    padding: 24px;
-    color: var(--text-color);
-    background-color: var(--card-color);
-    border: 3px solid var(--struktur-color);
-    border-radius: 20px;
+  width: 100%;
+  padding: 1.25rem 1.5rem;
+  color: var(--text-color);
+  background: none;
+  border-radius: 1.25rem;
+  background-color: var(--card-color);
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 1rem;
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.6rem;
+  border-bottom: 0.125rem solid var(--headline-color);
 }
 
 .header__sizes {
-    display: flex;
-    gap: 24px;
+  display: flex;
+  gap: 1.5rem;
 }
 
 .category__title {
-    margin: 0;
-    color: var(--struktur-color);
-    font-family: var(--font-family-headline);
-    text-align: center;
-    font-size: 28px;
+  margin: 0;
+  color: var(--headline-color);
+  font-family: var(--font-family-headline);
+  font-weight: var(--font-weight-headline);
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  text-align: left;
 }
 
-.category__sizes24, .category__sizes30 {
-    margin: 0;
-    color: var(--struktur-color);
-    font-family: var(--font-family-text);
-    font-size: 15px;
-    text-align: center;
+.category__sizes24, .category__sizes30, .category__sizes8 {
+  margin: 0;
+  min-width: 5.5rem;
+  color: var(--struktur-color);
+  font-family: var(--font-family-headline);
+  font-weight: var(--font-weight-headline);
+  font-size: 1.1rem;
+  text-align: right;
 }
 
 .category__items {
-    padding: 0px;
-    margin: 0px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .category__item {
-    display: flex;
-    justify-content: space-between;
-    gap: 16px;
-    margin: 5px 0;
-    border-bottom: 1px solid var(--struktur-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.5rem;
+  padding: 0.2rem 0;
+  font-size: var(--item-size);
+  line-height: 1.2;
+}
+
+/* Name mit gepunkteter Linie bis zum Preis */
+.category__item > span:first-child {
+  flex: 1;
+  display: flex;
+  align-items: baseline;
+  min-width: 0;
+}
+
+.category__item > span:first-child::after {
+  content: "";
+  flex: 1;
+  min-width: 1rem;
+  margin-left: 0.5rem;
+  border-bottom: 0.125rem dotted var(--leader-color);
 }
 
 .category__item__prices {
-    display: flex;
-    gap: 24px;
-    align-items: center;
+  display: flex;
+  gap: 1.5rem;
+  align-items: baseline;
+  flex-shrink: 0;
 }
 
-/* IMAGES */
+.category__item__prices span {
+  min-width: 5.5rem;
+  text-align: right;
+}
+
+/* BILDER (füllen die Höhe der Spalte) */
+.middleSection > div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
 
 .pizzaImages {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 12px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  min-height: 0;
 }
 
 .cardImg {
-    width: 400px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 20px;
-    background-color: var(--card-color);
-    border: 3px solid var(--struktur-color);
-}
-
-/* PIZZABRÖTCHEN */
-.pizzabroetchenCategory {
-    width: 400px;
-    padding: 24px;
-    color: var(--text-color);
-    background-color: var(--card-color);
-    border: 3px solid var(--struktur-color);
-    border-radius: 20px;
-}
-
-.category__sizes8 {
-    margin: 0;
-    color: var(--struktur-color);
-    font-family: var(--font-family-text);
-    font-size: 15px;
-    text-align: center;
-}
-
-/* PIZZASTANGE */
-.pizzastangeCategory {
-    width: 400px;
-    padding: 24px;
-    color: var(--text-color);
-    background-color: var(--card-color);
-    border: 3px solid var(--struktur-color);
-    border-radius: 20px;
-}
-
-/* ÜBERBACKENE */
-.ueberbackeneCategory {
-    width: 400px;
-    padding: 24px;
-    color: var(--text-color);
-    background-color: var(--card-color);
-    border: 3px solid var(--struktur-color);
-    border-radius: 20px;
+  width: 100%;
+  flex: 1;
+  min-height: 0;
+  object-fit: cover;
+  border-radius: 1.25rem;
+  background-color: var(--card-color);
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.18);
 }

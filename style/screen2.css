@@ -1,20 +1,19 @@
-/* OTHER */
+/* KARTEN (Screen 2 und 3) */
 .otherCategory {
-    width: 400px;
-    padding: 24px;
-    color: var(--text-color);
-    background-color: var(--card-color);
-    border: 3px solid var(--struktur-color);
-    border-radius: 20px;
-    margin-bottom: 12px;
+  width: 100%;
+  margin: 0;
+  padding: 1.25rem 1.5rem;
+  color: var(--text-color);
+  background-color: var(--card-color);
+  border: none;
+  border-radius: 1.25rem;
 }
 
-/* IMAGES */
-
+/* BILDER */
 .otherImages {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 12px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  min-height: 0;
 }
