@@ -61,6 +61,7 @@
   color: var(--headline-color);
   font-family: var(--font-family-headline);
   font-weight: var(--font-weight-headline);
+  color: var(--headline-color);
   font-size: 1.6rem;
   text-transform: uppercase;
   text-align: left;
@@ -69,7 +70,7 @@
 .category__sizes24, .category__sizes30, .category__sizes8 {
   margin: 0;
   min-width: 5.5rem;
-  color: var(--struktur-color);
+  color: var(--headline-color);
   font-family: var(--font-family-headline);
   font-weight: var(--font-weight-headline);
   font-size: 1.1rem;
